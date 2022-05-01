@@ -1,3 +1,97 @@
 .header{
-    background-color: blue;
+    background-color: rgb(249, 249, 252);
+    height: 4rem;
+    position: sticky;
+    top: 0;
 }
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: .5rem;
+}
+/* ######################################################### */
+.logo__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 3;
+    /* background-color: aqua; */
+    height: 3rem;
+}
+
+.logo{
+    font-size: 2.5rem;
+}
+
+/* ######################################################### */
+
+.search__bar{
+    display: flex;
+    align-items: center;
+    flex-grow: 9;
+    /* background-color: cadetblue; */
+    height: 3rem;
+}
+
+.search__input{
+    flex-grow: 3;
+    margin-right: 5px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: rgb(204, 203, 203);
+}
+
+.search__button{
+    color: white;
+    background-color: orangered;
+    text-decoration: none;
+    margin-right: 5px;
+    padding: 7px 9px;
+    border-radius: 10px;
+}
+
+/* ######################################################### */
+.nav__options{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-grow: 6;
+    /* background-color: aquamarine; */
+    height: 3rem;
+}
+
+.help{
+    flex-grow: 5;
+    margin-left: 20%;
+}
+
+.help a{
+    color: orangered;
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 2px 5px;
+    border: 2px solid orangered;
+}
+.cart a{
+    color: orangered;
+    text-decoration: none;
+}
+
+.user a{
+    color: orangered;
+    text-decoration: none;
+}
+
+
+.cart{
+    flex-grow: 1;
+}
+
+.user{
+    flex-grow: 1;
+}/* ######################################################### */
