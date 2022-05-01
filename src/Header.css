@@ -1,3 +1,9 @@
+abbr[title] {
+    border-bottom: none !important;
+    cursor: default !important;
+    text-decoration: none;
+  }
+
 .header{
     background-color: rgb(249, 249, 252);
     height: 4rem;
@@ -70,6 +76,7 @@
     margin-left: 20%;
 }
 
+
 .help a{
     color: orangered;
     text-decoration: none;
@@ -94,4 +101,7 @@
 
 .user{
     flex-grow: 1;
-}/* ######################################################### */
+    margin-right: 2rem;
+}
+
+/* ######################################################### */

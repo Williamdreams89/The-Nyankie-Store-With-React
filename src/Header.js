@@ -13,7 +13,7 @@ function Header() {
               <a href='#' className='search__button'>Search</a>
             </div>
             <div className='nav__options'>
-                <p className='help'><strong><a href='#'>?</a></strong></p>
+                <p className='help'><strong><abbr title='Need Help?'><a href='#'>?</a></abbr></strong></p>
                 <p className='cart'><strong><a href='#'>cart</a></strong></p>
                 <p className='user'><strong><a href='#'>user</a></strong></p>
             </div>
